@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  /* COLORS */
+  --color-primary-bg: #f5f5ed;
+  --color-highlight: #ff6600;
+
+  /* FONTS */
+  --font-sans: "Poppins", "ui-sans-serif", "system-ui", "sans-serif";
+  --font-title: "Cormorant Garamond", "serif";
+
+  /* ROUNDED (BORDER RADIUS) */
+  --radius-sm-custom: 12px;
+  --radius-md-custom: 24px;
+  --radius-lg-custom: 32px;
+
+  /* GRADIENT */
+  --bg-filter-gradient: linear-gradient(to bottom right, #a25fe7, #2f41e3);
+}
+
+/* 4. Global Base Styles */
+@layer base {
+  body {
+    @apply bg-primary-bg font-sans;
+  }
+}

@@ -58,11 +58,7 @@ const Footer = () => {
           </h3>
           <ul className="space-y-3 text-sm text-gray-300">
             <li className="hover:text-white cursor-pointer">
-              <a
-                href="http://sm-cms.64.227.144.236.sslip.io/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="#" target="_blank" rel="noopener noreferrer">
                 Admin login
               </a>
             </li>

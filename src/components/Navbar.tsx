@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import { Menu, User2, X } from "lucide-react";
 
 const navItems = [
   { name: "Home", path: "/" },
@@ -35,7 +35,14 @@ const Navbar = () => {
 
         <div className="flex items-center gap-4">
           {/* Profile Circle (Visible on all screens) */}
-          {/* <User2 className="w-8 h-8 rounded-full bg-neutral-200" /> */}
+
+          <a
+            href="http://sm-cms.64.227.144.236.sslip.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <User2 className="w-8 h-8 rounded-full bg-neutral-200" />
+          </a>
 
           {/* Mobile Hamburger Button (Hidden on md/desktop) */}
           <button
